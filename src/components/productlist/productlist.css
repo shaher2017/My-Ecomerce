@@ -1,0 +1,18 @@
+.products{
+    display: grid;
+    width: 95%;
+    grid-template-columns: repeat(4,1fr);
+    gap:2rem;
+    margin-left: 2.5%;
+}
+@media (max-width: 768px){
+    .products{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+.dark{
+ background-color: black;   
+}
+.artheme{
+    direction: rtl;
+}
